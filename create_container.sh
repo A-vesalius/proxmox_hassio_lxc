@@ -128,7 +128,7 @@ PCT_OPTIONS=(
   -cmode shell
   -features nesting=1
   -hostname $HOSTNAME
-  -net0 name=eth0,bridge=vmbr0
+  -net0 name=eth0,bridge=vmbr5,tag=20,type=veth
   -onboot 1
   -ostype $OSTYPE
   -rootfs $ROOTFS,size=$DISK_SIZE
